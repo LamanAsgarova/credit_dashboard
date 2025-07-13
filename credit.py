@@ -226,7 +226,6 @@ def create_visualizations(df):
         color='housing',
         title="Distribution of Housing Ownership Across Credit Purposes",
         labels={'purpose': 'Credit Purpose', 'housing': 'Housing Ownership'},
-        barmode='stack',
         category_orders={"housing": ["own", "rent", "free"]},
         opacity=0.7
     )
